@@ -1,0 +1,23 @@
+{
+  "bot_id": "mission_788",
+  "title": "Register of registered banks in New Zealand",
+  "description": "All banks operating in New Zealand must be registered with the Reserve Bank of New Zealand.",
+  "language": "python",
+  "data_type": "primary data",
+  "identifying_fields": [
+    "bank_name"
+  ],
+  "company_fields": {
+    "name": "bank_name"
+  },
+  "files": [
+    "scraper.py"
+  ],
+  "frequency": "monthly",
+  "publisher": {
+    "name": "OpenCorporates #Map The Banks",
+    "url": "http://missions.opencorporates.com/missions/788",
+    "terms": "Copyright terms (e.g. Open Government License, n/a, etc)",
+    "terms_url": "A place where these terms can be checked or verified"
+  }
+}
