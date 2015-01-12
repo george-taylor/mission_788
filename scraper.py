@@ -9,7 +9,10 @@ from bs4 import BeautifulSoup
 import requests
 import turbotlib
 
-source_url = "http://www.rbnz.govt.nz/regulation_and_supervision/banks/register/"
+# present registered banks 
+# source_url = "http://www.rbnz.govt.nz/regulation_and_supervision/banks/register/"
+# list of past and present registered banks 
+source_url = "http://www.rbnz.govt.nz/regulation_and_supervision/banks/0029134.html"
 sample_date = str(date.today())
 turbotlib.log("Starting scrape...") # optional debug logging
 response = requests.get(source_url)
